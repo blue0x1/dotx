@@ -202,7 +202,7 @@ Usage:
     results := make(chan result)
     var wg sync.WaitGroup
 
-    // Create output file immediately
+    
     var file *os.File
     var err error
     if out != "" {
@@ -231,13 +231,13 @@ Usage:
             displayed[r.Url] = true
             showResult(r, filterCode)
             
-            // Write to file immediately with error handling
+            
             if file != nil {
                 err := json.NewEncoder(file).Encode(r)
                 if err != nil {
                     fmt.Fprintf(os.Stderr, "dotx error writing to %s: %v\n", out, err)
                 }
-                file.Sync() // Force write to disk
+                file.Sync() 
             }
         }
     }
