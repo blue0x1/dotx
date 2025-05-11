@@ -8,7 +8,6 @@
 ---
 ## Features
 -  **Depth charge scanning** - Crawl up to 5 levels deep (default: 2)
--  **Stealth mode** - Disguises as Chrome browser traffic
 -  **Secret sniffer** - Detects AWS keys, GitHub tokens, and other,..
 -  **JSON export** - Structured output 
 
