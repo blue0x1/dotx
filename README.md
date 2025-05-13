@@ -1,6 +1,6 @@
 # dotx v 1.0
 
-*A stealthy hunter for exposed dotfiles and misconfigured secrets*
+*A hunter for exposed dotfiles and misconfigured secrets*
 <br><br>
 
 ![dotx-removebg-preview](https://github.com/user-attachments/assets/3ec8ca49-8f86-41f1-87ef-0c5f8b098892)
